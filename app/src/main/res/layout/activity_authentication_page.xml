@@ -1,7 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5C6BC0">
+    android:background="#E0E0E0">
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
@@ -14,12 +14,12 @@
             android:id="@+id/Idname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#000"
             android:layout_above="@+id/IDnametext"
             android:layout_alignParentLeft="true"
-
             android:layout_alignParentStart="true"
+
             android:text="ID :"
+            android:textColor="#000"
             android:textSize="25sp" />
 
         <EditText
@@ -37,12 +37,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@+id/Passtext"
-            android:textColor="#000"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-
             android:paddingTop="20dp"
+
             android:text="Password :"
+            android:textColor="#000"
             android:textSize="25sp" />
 
         <EditText
@@ -71,17 +71,17 @@
             android:id="@+id/Idsignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#000"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/LoginButton"
             android:onClick="CreateAccountIntent"
             android:paddingTop="20dp"
-            android:textStyle="italic"
-            android:textColorHighlight="#fff"
             android:text="@string/CreateAcciunt"
             android:textAlignment="center"
-            android:textSize="20sp" />
+            android:textColor="#000"
+            android:textColorHighlight="#fff"
+            android:textSize="20sp"
+            android:textStyle="italic" />
 
     </RelativeLayout>
 </LinearLayout>
